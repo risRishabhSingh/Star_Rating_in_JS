@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Borel', cursive;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(55deg, #6C3428, #DFA878);
+    flex-direction: column;
+}
+
+.emoji{
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.row{
+    font-size: 50px;
+}
+
+.star{
+    cursor: pointer;
+}
+
+.staractive{
+    color: gold;
+}
